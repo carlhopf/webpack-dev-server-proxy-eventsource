@@ -1,0 +1,25 @@
+{
+  "name": "webpack-dev-server-proxy-eventsource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "webpack serve ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.2.1"
+  }
+}
